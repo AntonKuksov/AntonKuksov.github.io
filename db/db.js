@@ -2,10 +2,7 @@ export default {
     bio: {
         about: {
             text: [
-                "Hi &#128075;",
-                "I'm Anton Kuksov. I’m currently working as a software specialized in JavaScript Applications.",
-                "I'm a developer, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
-                "I love to read, listen to music, and travel.",
+                "",
             ],
         },
         contact: {
@@ -82,7 +79,7 @@ export default {
         },
     ],
     projects: {
-        web: [{
+        freelance: [{
                 projectName: "Gym membership system",
                 image: "images/gym.jpg",
                 summary: "Developed a full stack application to make it easy to maintain detailed records of gym members and their memberships.",
@@ -108,56 +105,32 @@ export default {
                     "HTML5",
                 ],
             },
-            {
-                projectName: "Web Portfolio",
-                image: "images/portfolio.png",
-                summary: "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-                preview: "https://github.com/vinaysomawat/Travographer-Portal",
-                techStack: ["HTML", "Bootstrap", "JavaScript"],
-            },
-            {
-                projectName: "Resume Builder",
-                image: "images/resume-builder.png",
-                summary: "Browser based editor to build and download Resumes in a customizable templates.",
-                preview: "https://vinaysomawat.github.io/Resume-Builder",
-                techStack: ["HTML", "Bootstrap", "JavaScript"],
-            },
         ],
-        software: [{
-                projectName: "Pizza Ordering ChatBot",
-                image: "images/pizzaorderchatbot.png",
-                summary: "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-                preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-                techStack: ["Dailogflow", "Firebase"],
+        web: [{
+                projectName: "Landing page for crypto hotel",
+                image: "images/cr.jpg",
+                summary: "",
+                preview: "",
+                techStack: ["JavaScript", "Bootstrap", "HTML/CSS"],
             },
             {
-                projectName: "WhatsApp-Bot",
-                image: "images/whatsappbot.jpg",
-                summary: "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-                preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-                techStack: ["Selenium", "Chrome Webdriver", "Python"],
+                projectName: "Prototype for mobile and desktop. Gift Finder App",
+                image: "images/gift.jpg",
+                summary: "",
+                preview: "",
+                techStack: ["Material UI", "Figma", "HTML/CSS"],
             },
             {
-                projectName: "Bill Generator",
-                image: "images/billgenerator.png",
-                summary: "GUI to transfer data to excel sheets and generate bills on the local shops.",
-                preview: "https://github.com/vinaysomawat/Bill-Generator",
-                techStack: ["Tkinter", "Openxlpy", "Python"],
-            },
-        ],
-        freelance: [{
-                projectName: "SnylloAir.com",
-                image: "images/snylloair.png",
-                summary: "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-                preview: "https://www.snylloair.com/",
-                techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-            },
-            {
-                projectName: "Delivery+",
-                image: "images/AM-Logo-.png",
-                summary: "Android Application to display website in android devices.",
-                preview: "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-                techStack: ["Android", "JAVA", "Play Store"],
+                projectName: "Hiking app to find and create routes in the city",
+                image: "images/myway.jpg",
+                summary: "",
+                preview: "",
+                techStack: [
+                    "MySQL",
+                    "Bootstrap",
+                    "jQuery",
+                    "HTML5",
+                ],
             },
         ],
     },
