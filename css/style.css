@@ -2251,10 +2251,11 @@ ul {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
+    display: table;
 }
 
 .submenu li:hover {
-    background: rgba(255, 255, 0, 0.705);
+    background: rgba(255, 174, 0, 0.705);
     box-shadow: -1px 1px 51px -20px rgba(0, 0, 0, 1);
     border-radius: 5px;
     color: #fff;
