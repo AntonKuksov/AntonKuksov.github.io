@@ -3,7 +3,7 @@ export default {
         about: {
             text: [
                 "Hi &#128075;",
-                "I'm Vinay Somawat. I’m currently working as a software engineer@Novopay specialized in JavaScript Applications. I did my undergrad in CS from NIT Warangal.",
+                "I'm Anton Kuksov. I’m currently working as a software specialized in JavaScript Applications.",
                 "I'm a developer, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
                 "I love to read, listen to music, and travel.",
             ],
@@ -15,38 +15,56 @@ export default {
         },
     },
     skills: [{
+            title: "Design",
+            skillName: "HTML5/CSS, Bootstrap 5",
+            color: "4",
+            percentage: "90",
+        },
+        {
             title: "Languages",
-            skillName: "JavaScript, C++",
+            skillName: "C#, PHP, Python",
             color: "1",
-            percentage: "70",
+            percentage: "60",
         },
         {
             title: "Frameworks/Libraries",
-            skillName: "Angular, Reactjs",
+            skillName: "Angular/Typescript",
             color: "6",
+            percentage: "60",
+        },
+        {
+            title: "Frameworks/Libraries",
+            skillName: "JavaScript/jQuery ",
+            color: "8",
+            percentage: "80",
+        },
+        {
+            title: "Frameworks/Libraries",
+            skillName: "React, Vue.js, Django",
+            color: "5",
             percentage: "50",
         },
         {
             title: "Backend",
-            skillName: "Nodejs, MongoDB",
+            skillName: "MySQL, OracleDB",
             color: "2",
-            percentage: "40",
+            percentage: "60",
         },
         {
-            title: "Clouds",
-            skillName: "AWS(EC2, S3), Heroku, Netlify",
-            color: "3",
-            percentage: "30",
-        },
-        {
-            title: "Design",
-            skillName: "HTML, Bootstrap, SCSS",
-            color: "4",
+            title: "Version Control",
+            skillName: "Figma, Axure RP 9 (UX/UI)",
+            color: "9",
             percentage: "70",
         },
         {
             title: "Version Control",
-            skillName: "GitHub, JIRA, Trello",
+            skillName: "Adobe Illustrator, Photoshop",
+            color: "6",
+            percentage: "70",
+        },
+        {
+            title: "Version Control",
+            skillName: "GitHub, JIRA",
             color: "7",
             percentage: "70",
         },
@@ -57,16 +75,10 @@ export default {
             percentage: "80",
         },
         {
-            title: "Saas products",
-            skillName: "CleverTap, FreshDesk",
-            color: "5",
-            percentage: "50",
-        },
-        {
             title: "Editor",
-            skillName: "VS Code",
+            skillName: "VS Code, IntelliJ IDEA",
             color: "6",
-            percentage: "70",
+            percentage: "80",
         },
     ],
     projects: {
@@ -270,7 +282,7 @@ export default {
         {
             label: "copyright-text",
             data: [
-                "Made with &hearts; by Vinay Somawat.",
+                "Made with &hearts; by Anton Kuksov.",
                 "&copy; No Copyrights. Feel free to use this template."
             ],
         },
