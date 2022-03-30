@@ -155,8 +155,7 @@ export default {
             techStack: ["Android", "JAVA", "Play Store"],
         },
     ],
-},
-experience: [{
+    experience: [{
             title: "Novopay Solutions Pvt. Ltd.",
             duration: "June 2020 - Present",
             subtitle: "Software Engineer, SDE Intern",
